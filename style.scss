@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  width: 100%;
+
+  .container1 {
+    width: 47%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./download/e2c94c37012e9bf931d045c54ac2bd4b.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    .item1 {
+      width: 30%;
+      h1 {
+        width: 10%;
+        font-size: 50px;
+        color: black;
+      }
+    }
+    .item2 {
+      margin-top: 5%;
+      .btn {
+        padding: 0.5rem 1rem;
+        border: 2px solid white;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 600px;
+    .item3 {
+      width: 104%;
+      height: 300px;
+      background-image: url(./download/SOFA-URBA-3SE-99_01.jpg);
+      background-position: center;
+      background-size: cover;
+
+      p {
+        text-align: left;
+        font-size: 25px;
+        padding-top: 40%;
+        padding-left: 5%;
+        color: white;
+      }
+    }
+    .item4{
+        display: flex;
+        flex-direction: row;
+       width: 104%;
+       height: 300px;
+       .child1{
+           width: 47%;
+           height: 350px;
+           background-image: url(./download/aspetti.webp);
+           background-position: center;
+           background-size: cover;
+           p{
+            text-align: left;
+            font-size: 25px;
+            padding-top: 100%;
+            padding-left: 5%;
+            color:white;
+           }
+       }
+       .child2{
+        width: 56%;
+        height: 350px;
+        background-image: url(./download/bellagio-deep-storage-deep-buttoned-storage-ottoman.jpg);
+        background-position:center;
+        background-size: cover;
+        p{
+         text-align: left;
+         font-size: 25px;
+         padding-top: 85%;
+         padding-left: 5%;
+         color:white;
+        }
+       }
+    }
+  }
+}
+
